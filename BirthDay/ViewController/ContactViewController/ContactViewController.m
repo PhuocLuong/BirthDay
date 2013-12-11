@@ -217,6 +217,7 @@
                                                          if (ABRecordCopyValue(person, kABPersonBirthdayProperty))
                                                          {
                                                              NSString    *firstName   = (__bridge NSString *)(ABRecordCopyValue(person, kABPersonFirstNameProperty));
+                                                             
                                                              NSString    *lastName    = (__bridge NSString *)(ABRecordCopyValue(person, kABPersonLastNameProperty));
                                                              NSDate      *birthDay    = (__bridge NSDate *)(ABRecordCopyValue(person, kABPersonBirthdayProperty));
                                                              

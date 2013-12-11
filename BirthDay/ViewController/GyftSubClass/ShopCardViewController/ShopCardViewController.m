@@ -106,8 +106,7 @@
         cell         = [nib objectAtIndex:0];
     }
     
-    ShopCard *sc    = [[ShopCard alloc] init];
-    sc              = [_responseData objectAtIndex:indexPath.row];
+    ShopCard *sc     = [_responseData objectAtIndex:indexPath.row];
     
     cell.nameCardLabel.text = sc.merchant_name;
     cell.priceLabel.text    = [NSString stringWithFormat:@"%i %@", sc.opening_balance,
