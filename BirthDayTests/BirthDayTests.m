@@ -8,7 +8,12 @@
 
 #import <XCTest/XCTest.h>
 
+#import "ShopCardViewController.h"
+
+
 @interface BirthDayTests : XCTestCase
+
+@property (nonatomic, strong) ShopCardViewController *shopCardVC;
 
 @end
 
@@ -17,18 +22,24 @@
 - (void)setUp
 {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    _shopCardVC = [[ShopCardViewController alloc]init];
 }
 
 - (void)tearDown
 {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    _shopCardVC = nil;
+    
     [super tearDown];
 }
 
-- (void)testExample
+-(void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    XCTAssertEqual(1, 1, @"Equal");
+}
+
+- (void)testTitleShopCardVC
+{
+    XCTAssertNotNil(_shopCardVC, @"Not nil");
 }
 
 @end

@@ -11,6 +11,6 @@
     MBProgressHUD *HUD;
 }
 @property (weak, nonatomic) IBOutlet UITableView *table;
-@property (nonatomic, retain) NSIndexPath *activeIndexPath;
+@property (nonatomic, strong) NSIndexPath *activeIndexPath;
 
 @end

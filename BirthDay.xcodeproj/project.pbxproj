@@ -826,6 +826,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BirthDay/BirthDay-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "BirthDay/BirthDay-Info.plist";
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -851,6 +852,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BirthDay/BirthDay-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "BirthDay/BirthDay-Info.plist";
 				OTHER_LDFLAGS = (
 					"-all_load",

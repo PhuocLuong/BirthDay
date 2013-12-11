@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2ACB396A-DB08-43C3-8902-96AAAED33EE0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BirthDay</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B6E82240-A3A7-45EE-B629-7A60B4185C2F</key>
+		<string>https://github.com/PhuocLuong/BirthDay.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BirthDay.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B6E82240-A3A7-45EE-B629-7A60B4185C2F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/PhuocLuong/BirthDay.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B6E82240-A3A7-45EE-B629-7A60B4185C2F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B6E82240-A3A7-45EE-B629-7A60B4185C2F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BirthDay</string>
+		</dict>
+	</array>
+</dict>
+</plist>
