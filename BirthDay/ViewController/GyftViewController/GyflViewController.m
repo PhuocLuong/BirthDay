@@ -64,18 +64,20 @@
 
 - (IBAction)recent:(id)sender
 {
-
+/*
     int numberOfRecords = 3;// Change it
     NSString *url = [NSString stringWithFormat:@"transactions/last/%i", numberOfRecords];
     //[httpHelper sendRequestWithMethod:url];
+ */
 }
 
 - (IBAction)initial:(id)sender
 {
- 
+ /*
     int numberOfRecords = 3;// Change it
     NSString *url = [NSString stringWithFormat:@"transactions/first/%i", numberOfRecords];
    // [httpHelper sendRequestWithMethod:url];
+  */
 }
 - (IBAction)purchase:(id)sender
 {
