@@ -13,6 +13,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    NSMutableArray *sampleArray = [NSMutableArray array];
+    NSString *firstObj = [sampleArray objectAtIndex:1];
+    NSLog(@"%@",firstObj);
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     

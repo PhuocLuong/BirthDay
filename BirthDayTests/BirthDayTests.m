@@ -32,6 +32,12 @@
     [super tearDown];
 }
 
+- (void) abc
+{
+    XCTAssertEqual(1, 1, @"Equal");
+}
+
+
 -(void)testExample
 {
     XCTAssertEqual(1, 1, @"Equal");
